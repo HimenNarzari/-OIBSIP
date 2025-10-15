@@ -11,7 +11,7 @@ textual content using classical text classification methods.
 
 The dataset contains labeled SMS messages with two main columns: -
 **Category** -- The target variable indicating whether a message is
-"spam" or "ham"\
+"spam" or "ham"
 - **Message** -- The actual text content of the SMS
 
 ## Steps and Methodology
