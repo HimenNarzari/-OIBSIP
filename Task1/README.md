@@ -15,11 +15,11 @@ on its feature values.
 ## Dataset
 
 The dataset contains the following features: - **Id** -- Unique
-identifier for each sample\
-- **SepalLengthCm** -- Length of the sepal in centimeters\
-- **SepalWidthCm** -- Width of the sepal in centimeters\
-- **PetalLengthCm** -- Length of the petal in centimeters\
-- **PetalWidthCm** -- Width of the petal in centimeters\
+identifier for each sample
+- **SepalLengthCm** -- Length of the sepal in centimeters
+- **SepalWidthCm** -- Width of the sepal in centimeters
+- **PetalLengthCm** -- Length of the petal in centimeters
+- **PetalWidthCm** -- Width of the petal in centimeters
 - **Species** -- The class label (Setosa, Versicolor, Virginica)
 
 ## Steps and Methodology
@@ -32,7 +32,7 @@ exploration, and validation of column types and structure.
 ### 2. Data Visualization
 
 Exploratory Data Analysis (EDA) was conducted using **matplotlib** and
-**seaborn** to visualize relationships among variables.\
+**seaborn** to visualize relationships among variables.
 Plots such as pairplots and correlation heatmaps were used to understand
 the separability between classes and identify feature importance.
 
