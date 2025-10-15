@@ -23,25 +23,25 @@ was examined for structure, missing values, and class distribution.
 
 ### 2. Data Cleaning
 
-Unnecessary characters, punctuation, and symbols were removed.\
+Unnecessary characters, punctuation, and symbols were removed.
 Text normalization techniques were applied to standardize the message
-content, including: - Lowercasing all text\
-- Removing punctuation and stopwords\
+content, including: - Lowercasing all text
+- Removing punctuation and stopwords
 - Applying stemming using **PorterStemmer**
 
 ### 3. Exploratory Data Analysis
 
 EDA was performed to visualize: - The distribution of spam vs ham
-messages\
+messages
 - The most frequent words in both categories using **WordClouds** and
 **bar plots**
 
 ### 4. Data Preprocessing
 
 Categorical labels were encoded into numerical format using
-**LabelEncoder**.\
+**LabelEncoder**.
 The textual data was transformed into numerical features using: -
-**CountVectorizer**\
+**CountVectorizer**
 - **TF-IDF Vectorizer**
 
 ### 5. Train-Test Split
@@ -58,7 +58,7 @@ features represent word frequencies.
 ### 7. Model Evaluation
 
 The model's performance was evaluated using: - **Accuracy Score**\
-- **Precision and Recall**\
+- **Precision and Recall**
 - **Confusion Matrix**
 
 These metrics ensured balanced performance between spam and ham
@@ -67,7 +67,7 @@ classification.
 ### 8. Results
 
 The model achieved high accuracy and effectively distinguished spam from
-legitimate messages.\
+legitimate messages.
 TF-IDF vectorization combined with Multinomial Naive Bayes yielded
 strong predictive results, confirming the model's suitability for
 real-world spam detection tasks.
@@ -75,6 +75,6 @@ real-world spam detection tasks.
 ## Conclusion
 
 This project demonstrates how Natural Language Processing can be applied
-to real-world text classification problems.\
+to real-world text classification problems.
 The approach combines efficient text preprocessing, feature extraction,
 and probabilistic modeling to accurately detect spam messages.
