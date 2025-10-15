@@ -13,13 +13,13 @@ model that accurately estimates car prices based on these features.
 The dataset used in this project includes the following columns: -
 **Car_Name** -- Name of the car model
 - **Year** -- Year of manufacture
-- **Selling_Price** -- Price at which the car is being sold\
-- **Present_Price** -- Current ex-showroom price of the car\
-- **Driven_kms** -- Total distance driven by the car in kilometers\
-- **Fuel_Type** -- Type of fuel used (Petrol/Diesel/CNG)\
+- **Selling_Price** -- Price at which the car is being sold
+- **Present_Price** -- Current ex-showroom price of the car
+- **Driven_kms** -- Total distance driven by the car in kilometers
+- **Fuel_Type** -- Type of fuel used (Petrol/Diesel/CNG)
 - **Selling_type** -- Indicates whether the car is being sold by a
 dealer or individual
-- **Transmission** -- Type of transmission (Manual/Automatic)\
+- **Transmission** -- Type of transmission (Manual/Automatic)
 - **Owner** -- Number of previous owners
 
 ## Steps and Methodology
